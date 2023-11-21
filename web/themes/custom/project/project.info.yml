@@ -1,0 +1,15 @@
+name: Project
+type: theme
+description: Project Theme
+version: VERSION
+base theme: stable9
+core_version_requirement: ^8 || ^9 || ^10
+
+libraries:
+  - project/global-styling
+  - project/global-scripts
+
+regions:
+  header: "cabecera"
+  content: "contenido"
+  footer: "pie de página"
